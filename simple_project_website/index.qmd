@@ -1,7 +1,80 @@
 ---
-title: "simple_project_website"
+title: "Simple_project_website"
+format:
+  html:
+    toc: true
+    toc_location: body
+    to-title: Contents
+    html-math-method: katex
+    bibliography: reference.bib
 ---
+::: {style="text-align: justify"}
 
-This is a Quarto website.
+#   This is Heading 
+<h2>This is Heading 2</h2>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+:::: {.columns}
+
+::: {.column width="70%"}
+column 1
+
+Sentence becomes longer, 
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="20%"}
+Column 2 
+
+More columns
+:::
+
+::::
+<h3>This is Heading 3</h3>
+- Hi This is bullet 1
+- Hi This is bullet 2
+- Hi This is bullet 3
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+$P(A) = A*B$
+
+
+#One non inline-math LaTex equation 
+$$P(A) == P(B)$$
+
+[^1]: Footnote of  the paper
+
+>This a quote
+
+::: {#fig-elephants layout-ncol=2}
+
+![Rstudio](https://upload.wikimedia.org/wikipedia/commons/d/d0/RStudio_logo_flat.svg)
+
+![Wikipedia](https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg)
+
+Starter code
+:::
+
+{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
+
+```{mermaid}
+flowchart LR
+  A[Decision for this] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Res one]
+  C --> E[Res two]
+```
+:::
+
+### References
+
+This is a an example of citation [see @sarker2021machine, pp. 33-35;
+also @liu2022convnet, chap. 1]

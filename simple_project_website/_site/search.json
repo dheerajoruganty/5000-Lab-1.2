@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Simple_project_website",
+    "section": "",
+    "text": "This is Heading\n\nThis is Heading 2\n\n\n\ncolumn 1\nSentence becomes longer,\n\n\n\nColumn 2\nMore columns\n\n\n\nThis is Heading 3\n\n\nHi This is bullet 1\nHi This is bullet 2\nHi This is bullet 3\n\n\n\n\nTables\nAre\nCool\n\n\n\n\ncol 1 is\nleft-aligned\n$1600\n\n\ncol 2 is\ncentered\n$12\n\n\ncol 3 is\nright-aligned\n$1\n\n\n\nP(A) = A*B\n#One non inline-math LaTex equation P(A) == P(B)\n\nThis a quote\n\n\n\n\n\n\n\n\nRstudio\n\n\n\n\n\n\n\nWikipedia\n\n\n\n\nFigure 1: Starter code\n\n\n\n\n\n\n\nflowchart LR\n  A[Decision for this] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Res one]\n  C --&gt; E[Res two]\n\n\n\n\n\n\n\nReferences\nThis is a an example of citation (see Sarker 2021, 33–35; also Liu et al. 2022, chap. 1)\n\n\n\n\n\nReferences\n\nLiu, Zhuang, Hanzi Mao, Chao-Yuan Wu, Christoph Feichtenhofer, Trevor Darrell, and Saining Xie. 2022. “A Convnet for the 2020s.” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 11976–86.\n\n\nSarker, Iqbal H. 2021. “Machine Learning: Algorithms, Real-World Applications and Research Directions.” SN Computer Science 2 (3): 160."
+  },
+  {
+    "objectID": "slides/slides.html#section",
+    "href": "slides/slides.html#section",
+    "title": "Test file",
+    "section": "",
+    "text": "Turn off alarm\nGet out of bed\nDownload R studio\n\n\n\nRstudio"
+  },
+  {
+    "objectID": "slides/slides.html#section-1",
+    "href": "slides/slides.html#section-1",
+    "title": "Test file",
+    "section": "",
+    "text": "Get in bed\n\nWrite stuff in wikipedia \n\nCount sheep"
+  },
+  {
+    "objectID": "slides/slides.html#section-2",
+    "href": "slides/slides.html#section-2",
+    "title": "Test file",
+    "section": "",
+    "text": "count goat\nhelp people This is a an example of citation (see Sarker 2021, 33–35; also Liu et al. 2022, chap. 1)\n\n\n\nhello world, code folding example\n\n\n\n\n\n\n\n\nLiu, Zhuang, Hanzi Mao, Chao-Yuan Wu, Christoph Feichtenhofer, Trevor Darrell, and Saining Xie. 2022. “A Convnet for the 2020s.” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 11976–86.\n\n\nSarker, Iqbal H. 2021. “Machine Learning: Algorithms, Real-World Applications and Research Directions.” SN Computer Science 2 (3): 160."
+  }
+]
